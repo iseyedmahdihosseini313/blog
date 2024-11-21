@@ -17,7 +17,8 @@ const TypeWriter = ({ text }: { text: string }) => {
      }, [currentIndex, text]);
 
      return (
-          <div className="w-full h-[80%]  md:w-[60$] lg:w-[50%]  rounded-lg bg-slate-700/25 shadow-inner shadow-slate-200/55 p-5 pb-10 md:h-96 overflow-auto mb-16 scrollbar-thin scrollbar-thumb-blue-200/80 scrollbar-track-slate-200/5 scrollbar-thumb-rounded-full scrollbar-track-rounded-full hover:scrollbar-thumb-blue-200/5 ">
+          <div className="w-full h-[50%]  md:w-[60%] lg:w-[40%]   rounded-lg bg-slate-700/25 shadow-inner shadow-slate-200/55 p-5  md:h-96 overflow-auto mb-16 scrollbar-thin scrollbar-thumb-blue-200/80 scrollbar-track-slate-200/5 scrollbar-thumb-rounded-full scrollbar-track-rounded-full hover:scrollbar-thumb-blue-200/5 ">
+               
                {displayText}
                <span className="animate-pulse text-blue-400">|</span>
           </div>

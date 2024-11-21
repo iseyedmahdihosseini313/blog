@@ -1,11 +1,10 @@
-import {Contact} from "@/components"
+import { Contact } from '@/components';
 const Page = () => {
-    return ( <div className="min-h-screen w-full flex justify-center items-center">
+     return (
+          <div className="min-h-screen w-full flex justify-center items-center">
+               <Contact />
+          </div>
+     );
+};
 
-<Contact/>
-
-
-    </div> );
-}
- 
 export default Page;

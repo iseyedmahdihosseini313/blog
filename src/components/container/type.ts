@@ -1,4 +1,4 @@
-export default interface IThemeContainer {
+export default interface IContainer {
      children: React.ReactNode;
      className?: string;
 }

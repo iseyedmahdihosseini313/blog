@@ -4,14 +4,14 @@ import PhoneSvg from './common/phoneSvg';
 import EmailSvg from './common/emailSvg';
 import LinkOfHeader from './futures/commons/linkOfHeader';
 import Header from './futures/header';
-import { ThemeContainer } from './themeContainer';
 import { ContactIcons } from './futures/commons/contactIcons/index';
 import Contact from './futures/contact';
+import { Container } from './container';
 export {
      ContactIcons,
      PhoneSvg,
      LinkOfHeader,
-     ThemeContainer,
+     Container,
      MyNameSvgIcon,
      Header,
      TypeWriter,
