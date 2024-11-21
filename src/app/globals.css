@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+     body {
+          @apply bg-primary-light dark:bg-primary-dark;
+     }
+}
+
+@layer components {
+     .button {
+          @apply px-4 py-2 rounded-md
+           bg-secondary-light dark:bg-secondary-dark
+           hover:opacity-80 transition-opacity;
+     }
+}

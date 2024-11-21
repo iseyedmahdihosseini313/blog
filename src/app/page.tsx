@@ -1,8 +1,7 @@
-import Image from "next/image";
+import { MyNameSvgIcon } from "@/components";
 
-export default function Home() {
-  return (
-   
-   <div></div>
-  );
+export default async function Home() {
+  
+      return <div className=" flex justify-center items-center w-full"><MyNameSvgIcon/></div>;
 }
+
