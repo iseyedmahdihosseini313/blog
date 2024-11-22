@@ -8,6 +8,7 @@ import { ContactIcons } from './futures/commons/contactIcons/index';
 import Contact from './futures/contact';
 import { Container } from './container';
 import Summary from './futures/summary/index';
+import Image from './futures/commons/galleryItem/index';
 export {
      ContactIcons,
      PhoneSvg,
@@ -17,6 +18,7 @@ export {
      Header,
      TypeWriter,
      EmailSvg,
-     Contact,Summary
-     
+     Contact,
+     Summary,
+     Image,
 };
