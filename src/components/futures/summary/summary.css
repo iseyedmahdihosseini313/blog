@@ -1,0 +1,11 @@
+.beforeShadow::before{
+
+
+
+box-shadow: -5px -5px 8px 0.5px rgb(11, 50, 142)
+
+}
+.afterShadow::after{
+    box-shadow: 5px 5px 8px 0.5px rgb(11, 50, 142)
+
+}
