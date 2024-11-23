@@ -1,12 +1,5 @@
-'use client';
 import { ContactIcons } from '../commons/contactIcons';
 const Contact = () => {
-   
-
-     return (
-             
-                    <ContactIcons  />
-             
-     );
+     return <ContactIcons />;
 };
 export default Contact;

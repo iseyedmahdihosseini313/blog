@@ -1,4 +1,4 @@
- const mySkills = [
+const mySkills = [
      {
           title: 'NEXT.JS',
           text: 'ssaas',
@@ -187,4 +187,4 @@ Online Tutorials and Courses on platforms like Coursera, Udemy, and Codecademy.`
           ),
      },
 ];
-export default mySkills
+export default mySkills;

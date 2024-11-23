@@ -1,5 +1,4 @@
 import { TypeWriter } from '@/components';
-
 export default function Page() {
      const text = `I am a self-taught front-end developer. My key strengths include a quick learning ability, responsibility, and adaptability. These qualities enable me to grow rapidly and align myself with the diverse needs of projects and team members.
 In addition to my technical skills, I value effective communication and organization in teamwork. I am seeking an opportunity to collaborate with a professional team and leverage creativity to create an exceptional user experience.

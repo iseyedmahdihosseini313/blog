@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
-
 const MyNameSvgIcon = () => {
      const [move, setMove] = React.useState(false);
      React.useEffect(() => {
+          console.log("render mynamesvgicon")
           const s = setTimeout(() => {
                setMove((prev) => !prev);
           }, 1000);
@@ -38,8 +38,8 @@ const MyNameSvgIcon = () => {
                          fontSize="52"
                          style={{ whiteSpace: 'pre' }}
                     >
-                         {' '}
-                         I &apos; m Mahdi H 0sSei n i{' '}
+                         
+                         I &apos; m Mahdi H 0sSei n i
                     </tspan>
                </text>
           </svg>

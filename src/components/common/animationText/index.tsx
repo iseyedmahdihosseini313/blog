@@ -6,6 +6,7 @@ const TypeWriter = ({ text }: { text: string }) => {
      const [currentIndex, setCurrentIndex] = useState(0);
 
      useEffect(() => {
+          console.log("render animationtext")
          
           if (currentIndex < text.length) {
                const timeout = setTimeout(() => {

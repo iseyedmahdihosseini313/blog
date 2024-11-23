@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 const LinkOfHeader = ({href,title}:{href:string,title:string}) => {
     return (
          <>
