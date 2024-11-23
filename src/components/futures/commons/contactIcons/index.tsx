@@ -1,19 +1,11 @@
 'use client';
-import { EmailSvg, PhoneSvg } from '@/components';
+import contactIcons from '@/lib/contactIconsInfo';
 import { useState } from 'react';
 export function ContactIcons() {
-     const icons = [
-          {
-               id: 'email',
-               Icon: EmailSvg,
-               content: 'iseyedmahdihosseini313@gmail.com',
-          },
-          { id: 'phone', Icon: PhoneSvg, content: '+98 938 541 2907' },
-     ];
      const [activeIcon, setActiveIcon] = useState<string | null>(null);
      return (
           <div className="flex  justify-center gap-20 min-h-screen min-w-[100vw]">
-               {icons.map((item) => (
+               {contactIcons.map((item) => (
                     <div key={item.id}>
                          <button
                               onClick={() => setActiveIcon(item.id)}
